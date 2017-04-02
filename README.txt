@@ -41,5 +41,5 @@ $git clone https://github.com/WalterAlonso/PSP2.1.git
 
 ** Heroku:
 
-	https://app-tamaniorelativo.herokuapp.com/
+	https://app-psp2-1-calcsimpson.herokuapp.com/
 
