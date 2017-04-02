@@ -29,7 +29,7 @@ public class CalculoReglaSimpsonWeb {
 		get("/", (req, res) -> {
 			Map<String, Object> attributes = new HashMap<>();
 			try {
-				String rutaArchivo = "target/classes/ArchivoProcesar/ArchivoCargaReglaSimpson.txt" + args[0];
+				String rutaArchivo = "target/classes/ArchivoProcesar/ArchivoCargaReglaSimpson.txt";
 				fachada.procesarReglaSimpson(rutaArchivo, 0.00001, 10);
 				return fachada.mostrarCalculosWeb();				
 			} catch (Exception ex) {

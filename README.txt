@@ -25,11 +25,11 @@ $git clone https://github.com/WalterAlonso/PSP2.1.git
 
 ** Ejecucion maven
 
-	 mvn clean install
+	 mvn clean install site
 
 ** Ejecute el programa:
 
-	java -cp target/Ecos_CalculoReglaSimpson-1.0-SNAPSHOT.jar uniandes.ecos.conceptosAvanzados.calculoReglaSimpson.controlador.CalculoReglaSimpson "ArchivoCargaReglaSimpson.txt"
+	java -cp target/Ecos_CalculoReglaSimpson-1.0-SNAPSHOT-jar-with-dependencies.jar uniandes.ecos.conceptosAvanzados.calculoReglaSimpson.controlador.CalculoReglaSimpson "ArchivoCargaReglaSimpson.txt"
 
 ** Documentacion del sitio
 

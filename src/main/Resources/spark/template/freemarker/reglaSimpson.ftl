@@ -21,10 +21,10 @@
 	</tr>
 	<#list datos as reglaSimpson>
 	<tr>
-			<td>${reglaSimpson.rangoFinal}</td> 
-			<td>${reglaSimpson.dof}</td>
-			<td>${reglaSimpson.valorEsperado}</td>
-			<td>${reglaSimpson.valorCalculado}</td>
+			<td>${reglaSimpson.darRangoFinal()?string("####.##########")}</td> 
+			<td>${reglaSimpson.darDof()?string("####.##########")}</td>
+			<td>${reglaSimpson.darValorEsperado()?string("####.##########")}</td>
+			<td>${reglaSimpson.darValorCalculado()?string("####.##########")}</td>
 	</tr>
 	</#list>
   </table>

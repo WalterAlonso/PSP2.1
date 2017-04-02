@@ -76,6 +76,6 @@ public class Fachada {
 	public ModelAndView mostrarCalculosWeb() {
 		Map<String, Object> attributes = new HashMap<>();
 		attributes.put("datos", datosReglaSimpson);		
-		return new ModelAndView(attributes, "reglaSimpson.Tfl");
+		return new ModelAndView(attributes, "reglaSimpson.ftl");
 	}
 }

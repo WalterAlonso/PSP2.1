@@ -2,7 +2,7 @@
   <div class="container">
     <ul class="nav navbar-nav">
       <li name="lnkHome">
-        <a href="/"><span class="glyphicon glyphicon-home"></span> CALCULO DE TAMA&Ntilde;O RELATIVO</a>
+        <a href="/"><span class="glyphicon glyphicon-home"></span>CALCULO DE REGLA SIMPSON</a>
       </li>      
 	  <li name="lnkArchivo">
         <a href="/PruebasArchivo"><span class="glyphicon glyphicon-home"></span> PRUEBAS CLASE ARCHIVO</a>
