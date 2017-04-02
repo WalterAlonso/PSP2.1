@@ -72,7 +72,7 @@
 			<configuration>
 				<jdkVersion>1.8</jdkVersion>
 				<!-- Use your own application name -->
-				<appName>app-tamaniorelativo</appName> 
+				<appName>app-psp2-1-calcsimpson</appName> 
 				<processTypes>
 					<!-- Tell Heroku how to launch your application -->
 					<!-- You might have to remove the ./ in front   -->

@@ -18,10 +18,10 @@ Debe tener instalado Maven
 
 **************** Instrucciones de ejecucion ************************
 ** clone repo desde github.
-$git clone https://github.com/WalterAlonso/2_PSP2.git
+$git clone https://github.com/WalterAlonso/PSP2.1.git
 
-** Ingresar al folder 2_PSP2
-  	cd 2_PSP2
+** Ingresar al folder PSP2.1
+  	cd PSP2.1
 
 ** Ejecucion maven
 
