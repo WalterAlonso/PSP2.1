@@ -2,8 +2,8 @@
 Codigo curso: CSOF5101 - 2017.
 Nombre curso: CONCEPTOS AVANZADOS EN INGENIERIA DE SOFTWARE.
 Nombre de la tarea: Assignment Kit for Program 5.
-Fecha de envío de la tarea: 02 Abril 2017 (17:00), 
-		GithHub: 02 Abril 2017 (13:00), Heroku: 02 Abril 2017 (02:47)
+Fecha de envío de la tarea: 03 Abril 2017 (00:50), 
+		GithHub: 02 Abril 2017 (01:00), Heroku: 02 Abril 2017 (01:10)
 Autor: Walter Javier Alonso Roa
 /************************************************************/
 
@@ -32,8 +32,7 @@ $git clone https://github.com/WalterAlonso/PSP2.1.git
 	java -cp target/Ecos_CalculoReglaSimpson-1.0-SNAPSHOT-jar-with-dependencies.jar uniandes.ecos.conceptosAvanzados.calculoReglaSimpson.controlador.CalculoReglaSimpson "ArchivoCargaReglaSimpson.txt"
 
 ** Documentacion del sitio
-
-	mvn site
+
 		- Cobertura de pruebas unitarias: target/site/cobertura/index.html
 		- Analisis de codigo (PMD): 	  target/site/pmd.html
 		- Documentacion de codigo test: target/site/testapidocs/index.html
